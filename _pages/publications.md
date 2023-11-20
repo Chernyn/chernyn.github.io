@@ -4,13 +4,14 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+###Bidirectional Looking with A Novel Double Exponential Moving Average to Adaptive and Non-adaptive Momentum Optimizers
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+Yineng Chen, Zuchao Li, Lefei Zhang, Bo Du, Hai Zhao (ICML 2023)
 
-{% include base_path %}
+Links: [Paper](https://proceedings.mlr.press/v202/chen23r/chen23r.pdf)
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+###Fine-Grained Position Helps Memorizing More, a Novel Music Compound Transformer Model with Feature Interaction Fusion
+
+Zuchao Li, Ruhan Gong, Yineng Chen, Kehua Su
+
+Links: [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25650)
