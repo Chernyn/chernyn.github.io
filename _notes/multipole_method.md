@@ -2,9 +2,10 @@
 title: "Multipole Method"
 collection: notes
 type: "Talk"
-permalink: /notes/multipole_method.md
+permalink: /notes/multipole_method
 date: 2024-05-06
 ---
+
 
 The $n$'th cyclotomic polynomial $\Phi_n(x)$ is formed by collecting all the linear factors $x-\zeta$ such that $\zeta$ is the $n$'th primitive root of unity, so we can explicitly define it via
 
