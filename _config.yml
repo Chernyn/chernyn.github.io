@@ -227,7 +227,7 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _portfolio
@@ -250,11 +250,12 @@ defaults:
   # _notes
   - scope:
       path: ""
-      type: notes
+      type: talks
     values:
       layout: talk
       author_profile: false
       share: true
+      comments: true
       
 # Sass/SCSS
 sass:
