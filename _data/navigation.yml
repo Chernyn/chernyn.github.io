@@ -1,11 +1,12 @@
 # main links links
 main:
+
+  - title: "Blogs and Notes"
+    url: /blogs/ 
+    
   - title: "Publications"
     url: /publications/
 
-  - title: "Blogs and Notes"
-    url: /blogs/    
-    
   - title: "Resume"
     url: https://chernyn.github.io/files/Resume_Yineng_Chen.pdf
 
