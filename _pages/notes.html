@@ -5,8 +5,8 @@ permalink: /notes/
 author_profile: false
 ---
 
-
+{% include base_path %}
 
 {% for post in site.notes reversed %}
-  {% include archive-single-talk.html %}
+  {% include archive-single.html %}
 {% endfor %}
