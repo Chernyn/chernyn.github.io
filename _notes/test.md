@@ -1,3 +1,11 @@
+---
+title: "A Test File. Please ignore it."
+collection: notes
+type: "Talk"
+permalink: /notes/test
+date: 2024-05-06
+---
+
 ## I do not know what happened
 
 # Let us just have a try
