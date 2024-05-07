@@ -1,7 +1,7 @@
 ---
 title: "Multipole Method"
 collection: notes
-permalink: /notes/multipole_method
+permalink: /posts/multipole_method
 date: 2024-05-06
 tags:
   - cool posts
