@@ -2,7 +2,7 @@
 title: "Multipole Method"
 collection: notes
 type: "Talk"
-permalink: /notes/multipole_method
+permalink: /notes/multipole_method.md
 date: 2024-05-06
 ---
 
