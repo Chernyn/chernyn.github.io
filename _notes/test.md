@@ -2,7 +2,7 @@
 title: "A Test File. Please ignore it."
 collection: notes
 type: "Talk"
-permalink: /notes/test.md
+permalink: /notes/test
 date: 2024-05-06
 ---
 
