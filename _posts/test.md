@@ -1,6 +1,5 @@
 ---
 title: "Multipole Method"
-collection: notes
 permalink: /posts/multipole_method
 date: 2024-05-06
 tags:
