@@ -12,3 +12,5 @@ main:
   - title: "Posts"
     url: /year-archive/
 
+  - title: "TTalks"
+    url: /talks/    
