@@ -1,9 +1,12 @@
 ---
 title: "A Test File. Please ignore it."
 collection: notes
-type: "Talk"
 permalink: /notes/test
 date: 2024-05-06
+tags:
+  - cool posts
+  - category1
+  - category2s
 ---
 
 abcdedf I want to say nothing.
