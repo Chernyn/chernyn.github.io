@@ -1,6 +1,6 @@
 ---
 title: "Multipole Method"
-permalink: /posts/multipole_method
+permalink: /posts/test
 date: 2024-05-06
 tags:
   - cool posts
