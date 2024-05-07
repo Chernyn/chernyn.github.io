@@ -1,9 +1,12 @@
 ---
 title: "Multipole Method"
 collection: notes
-type: "Talk"
 permalink: /notes/multipole_method
 date: 2024-05-06
+tags:
+  - cool posts
+  - category1
+  - category2
 ---
 
 
