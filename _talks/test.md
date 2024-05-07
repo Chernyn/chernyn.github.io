@@ -139,4 +139,9 @@ $$
 &+ x^{36} + x^{35} + x^{34} + x^{33} + x^{32} + x^{31} - x^{28} - x^{26}  \\
 & - x^{24} - x^{22} - x^{20} + x^{17} + x^{16} + x^{15} + x^{14} + x^{13} \\
 &+ x^{12} - x^9 - x^8 - 2 x^7 - x^6 - x^5 + x^2 + x + 1.
+\end{aligned}
 $$
+
+Since 105 is the smallest integer divisible by 3 distinct odd primes, Theorem 3 also indicates that the expansion of $\Phi_n(x)$ contains terms of the form $\pm x^k$ for all $n\le104$.
+
+[^1]: Brookfield, G. (2016). [The Coefficients of Cyclotomic Polynomials](https://doi.org/10.4169/math.mag.89.3.179). *Mathematics Magazine*, 89(3), 179–188.
