@@ -2,7 +2,7 @@
 title: "multipole"
 collection: talks
 type: "Talk"
-permalink: /talks/test
+permalink: /blogs/test
 date: 2024-05-06
 ---
 
