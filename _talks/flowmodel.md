@@ -17,7 +17,11 @@ z\sim \pi(z), \,x\sim P_G(x),\\
 x=G(z)
 $$
 
-The optimal model $G^*=\underset{G}{\text{argmax}}\sum_{i=1}^m \text{log}P_G(x_i) \approx KL(P_{data}||P_G)$
+The optimal model is 
+
+$$
+G^*=\underset{G}{\text{argmax}}\sum_{i=1}^m \text{log}P_G(x_i) \approx KL(P_{data}||P_G)
+$$
 
 From the transformation relationship, we have
 
