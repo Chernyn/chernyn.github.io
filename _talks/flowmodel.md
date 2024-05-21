@@ -49,20 +49,25 @@ i.e.,\text{log}P_G(x_i)=\text{log}\pi(z_i)+\sum_{n=1}^K|\text{det}(J_{G_n^{-1}})
 $$
 
 ## Coupling Layer
+
 ![coupling_layer](coupling_layer.jpg)
 
 It is easy to find that it is a invertible transformation, on the one hand,
+
 $$
 x_{i\leq d}=z_{i\leq d},\\
 x_{i> d}=\beta_{i> d} z_{i> d}+\gamma_{i> d}
 $$
+
 on the other hand,
+
 $$
 z_{i\leq d}=x_{i\leq d},\\
 z_{i> d}=\frac{x_{i> d}-\gamma_{i> d}}{\beta_{i> d}} 
 $$
 
 Now we can compute the Jacobian Matrix
+
 $$
 \left[
 \begin{array}{c|c}
@@ -71,9 +76,11 @@ I& 0 \\ \hline
 \end{array}
 \right]
 $$
+
 $$
 \text{det}J_G=\frac{\partial x_{d+1}}{\partial z_{d+1}}\frac{\partial x_{d+2}}{\partial z_{d+2}}\cdots \frac{\partial x_{D}}{\partial z_{D}}=\beta_{d+1}\beta_{d+2}\cdots \beta_{D}
 $$
 
 ### Coupling Layer Stacks
+
 ![coupling_layers](layers.jpg)
