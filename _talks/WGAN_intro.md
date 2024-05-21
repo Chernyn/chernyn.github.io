@@ -77,7 +77,7 @@ $$
 D_f(P||Q)=\text{max}_T(E_{x\sim p(x)}[T(x)]-E_{x\sim q(x)}[g(T(x))])
 $$
 
-To train the generator, we indeed apply $\underset{G}{\text{min}} D_f(P\|Q)$
+To train the generator, we indeed apply $\underset{G}{\text{min}} D_f(P\|\|Q)$.
 
 ## The loss of GAN
 
