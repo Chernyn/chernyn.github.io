@@ -37,7 +37,7 @@ i.e.,\text{log}P_G(x_i)=\text{log}\pi(z_i)+\sum_{n=1}^K|\text{det}(J_{G_n^{-1}})
 $$
 
 ## Coupling Layer
-![coupling_layer](_talks/coupling_layer.jpg)
+![coupling_layer](coupling_layer.jpg)
 
 It is easy to find that it is a invertible transformation, on the one hand,
 $$
@@ -64,4 +64,4 @@ $$
 $$
 
 ### Coupling Layer Stacks
-![coupling_layers](_talks/layers.jpg)
+![coupling_layers](layers.jpg)
