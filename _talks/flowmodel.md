@@ -11,26 +11,34 @@ date: 2024-05-06
 ## Basic Ideas
 
 Suppose a neural network generator $G$ defines a distribution $P_G$, that is
+
 $$
 z\sim \pi(z), \,x\sim P_G(x),\\
 x=G(z)
 $$
+
 The optimal model $G^*=\underset{G}{\text{argmax}}\sum_{i=1}^m \text{log}P_G(x_i) \approx KL(P_{data}||P_G)$
 
 From the transformation relationship, we have
+
 $$
 P_G(x_i)=\pi(z_i)|\text{det}(J_{G^{-1}})|
 $$
+
 where $\pi(z_i)=G^{-1}(x_i)$. Apply $\text{log}$ to both sides, we have
+
 $$
 \text{log}P_G(x_i)=\text{log}\pi(G^{-1}(x_i))+\text{log}|\text{det}(J_{G^{-1}})|
 $$
 
 The iteration of multiple models (the flow) is as follows
+
 $$
 \pi(x)\rightarrow\boxed{G_1}\rightarrow P_1(x)\rightarrow\boxed{G_2}\rightarrow P_2(x)\rightarrow \cdots
 $$
+
 And the we get distribution
+
 $$
 P_G(x_i)=\pi(z_i)|\text{det}(J_{G_1^{-1}})||\text{det}(J_{G_2^{-1}})|\cdots|\text{det}(J_{G_K^{-1}})|,\\
 i.e.,\text{log}P_G(x_i)=\text{log}\pi(z_i)+\sum_{n=1}^K|\text{det}(J_{G_n^{-1}})|
